@@ -11,6 +11,7 @@ RUN apk update && \
     ca-certificates \
     curl \
     git \
+    libffi-dev \
     mercurial \
     openssl \
     openssh-client \
