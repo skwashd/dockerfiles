@@ -11,8 +11,10 @@ RUN apk update && \
     ca-certificates \
     curl \
     git \
+    libffi-dev \
     mercurial \
     openssl \
+    openssl-dev \
     openssh-client \
     php5 \
     php5-curl \
