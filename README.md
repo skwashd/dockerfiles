@@ -1,6 +1,6 @@
 # python-drupal-tasks
 
-[![](https://imagelayers.io/badge/skwashd/python-drupal-tasks:latest.svg)](https://imagelayers.io/?images=skwashd/python-drupal-tasks:latest 'Image Layers badge') [![](https://img.shields.io/docker/pulls/skwashd/python-drupal-tasks.svg)](https://hub.docker.com/r/skwashd/python-drupal-tasks/ 'Docker Hub pulls badge')
+[![](https://images.microbadger.com/badges/image/skwashd/python-drupal-tasks.svg)](http://microbadger.com/images/skwashd/python-drupal-tasks "microbadger image badge")[![](https://img.shields.io/docker/pulls/skwashd/python-drupal-tasks.svg)](https://hub.docker.com/r/skwashd/python-drupal-tasks/ 'Docker Hub pulls badge')
 
 Docker image for running Python scripts for managing Drupal sites.
 
