@@ -12,6 +12,8 @@ RUN apk update && \
     curl \
     git \
     libffi-dev \
+    libxml2-dev \
+    libxslt-dev \
     mercurial \
     openssl \
     openssl-dev \
