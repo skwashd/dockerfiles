@@ -22,7 +22,8 @@ RUN apk update \
     python2 \
     py2-pip \
     rsync \
-    wget && \
-  rm -rf /var/cache/apk/* && \
-  wget -O /usr/local/bin/composer https://getcomposer.org/download/1.5.1/composer.phar && \
-  chmod +x /usr/local/bin/composer
+    wget \
+  && rm -rf /var/cache/apk/* \
+  && wget -O /usr/local/bin/composer https://getcomposer.org/download/1.6.2/composer.phar \
+  && echo "6706b9ba03e5f1db57285f701e89fc54f2a1b3d6aa64a921699fcd0725a6e80bf659b7aaf7a49fd6a7b3f3521180ea2db2a59282b5b817812635f69d2969d73e  /usr/local/bin/composer" | sha512sum -c - \
+  && chmod +x /usr/local/bin/composer
